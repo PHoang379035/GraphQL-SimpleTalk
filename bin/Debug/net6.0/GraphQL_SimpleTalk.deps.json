@@ -1,0 +1,84 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GraphQL_SimpleTalk/1.0.0": {
+        "dependencies": {
+          "GraphQL": "7.7.1",
+          "GraphQL.Server.Ui.GraphiQL": "7.6.0"
+        },
+        "runtime": {
+          "GraphQL_SimpleTalk.dll": {}
+        }
+      },
+      "GraphQL/7.7.1": {
+        "dependencies": {
+          "GraphQL-Parser": "8.4.2",
+          "GraphQL.Analyzers": "7.7.1"
+        },
+        "runtime": {
+          "lib/net6.0/GraphQL.dll": {
+            "assemblyVersion": "7.7.1.0",
+            "fileVersion": "7.7.1.0"
+          }
+        }
+      },
+      "GraphQL-Parser/8.4.2": {
+        "runtime": {
+          "lib/net6.0/GraphQLParser.dll": {
+            "assemblyVersion": "8.4.2.0",
+            "fileVersion": "8.4.2.0"
+          }
+        }
+      },
+      "GraphQL.Analyzers/7.7.1": {},
+      "GraphQL.Server.Ui.GraphiQL/7.6.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/GraphQL.Server.Ui.GraphiQL.dll": {
+            "assemblyVersion": "7.6.0.0",
+            "fileVersion": "7.6.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GraphQL_SimpleTalk/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GraphQL/7.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FDET1Evbk/yZ5iJRi/19P6u77D/CXlppWxvWzv0Gty5nbA4Gif1tz7rVhHKVEc0bPOdRzmCVxclKG8CxqYk4EQ==",
+      "path": "graphql/7.7.1",
+      "hashPath": "graphql.7.7.1.nupkg.sha512"
+    },
+    "GraphQL-Parser/8.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lztBQaZaq2g98w2XVSv3Y635AEwk/m6gwlvgmLxfIGxngpklaPSXWEIgCXcCv803qAXvUUTbvaVXuteyQdyVjw==",
+      "path": "graphql-parser/8.4.2",
+      "hashPath": "graphql-parser.8.4.2.nupkg.sha512"
+    },
+    "GraphQL.Analyzers/7.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vKD/sdbY5QrH85PkoB4hhALlZWWpL7/E/jwk5e1stbdImq/mDnko1r1B5eTKJMWO5a6d6Kba9aHyEeG1Mtk9Rw==",
+      "path": "graphql.analyzers/7.7.1",
+      "hashPath": "graphql.analyzers.7.7.1.nupkg.sha512"
+    },
+    "GraphQL.Server.Ui.GraphiQL/7.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o6+tnA5Vt1inLviBnJrV6tBHMrsKIwz/NkkVpyM9lyk+0lUE/9xSGBMmsnnubK+uSh/hwjzVSX6kZRbm3UCaTQ==",
+      "path": "graphql.server.ui.graphiql/7.6.0",
+      "hashPath": "graphql.server.ui.graphiql.7.6.0.nupkg.sha512"
+    }
+  }
+}

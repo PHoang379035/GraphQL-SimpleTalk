@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "hCgr8o20+h+8h72oEC6ysqDzp22fiA25Hk8K6ppbxV1HIewG0Zf5gotk+tSsPzChzRtwqQqHqiXUjNGH64d+oA==",
+  "success": true,
+  "projectFilePath": "G:\\Chuyên ngành\\CDNet\\GraphQL-SimpleTalk\\GraphQL_SimpleTalk.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\graphql\\7.7.1\\graphql.7.7.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\graphql-parser\\8.4.2\\graphql-parser.8.4.2.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\graphql.analyzers\\7.7.1\\graphql.analyzers.7.7.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\graphql.server.ui.graphiql\\7.6.0\\graphql.server.ui.graphiql.7.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,212 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "GraphQL/7.7.1": {
+        "type": "package",
+        "dependencies": {
+          "GraphQL-Parser": "8.4.2",
+          "GraphQL.Analyzers": "7.7.1"
+        },
+        "compile": {
+          "lib/net6.0/GraphQL.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/GraphQL.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "GraphQL-Parser/8.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/GraphQLParser.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/GraphQLParser.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "GraphQL.Analyzers/7.7.1": {
+        "type": "package"
+      },
+      "GraphQL.Server.Ui.GraphiQL/7.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/GraphQL.Server.Ui.GraphiQL.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/GraphQL.Server.Ui.GraphiQL.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "GraphQL/7.7.1": {
+      "sha512": "FDET1Evbk/yZ5iJRi/19P6u77D/CXlppWxvWzv0Gty5nbA4Gif1tz7rVhHKVEc0bPOdRzmCVxclKG8CxqYk4EQ==",
+      "type": "package",
+      "path": "graphql/7.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "graphql.7.7.1.nupkg.sha512",
+        "graphql.nuspec",
+        "lib/net5.0/GraphQL.dll",
+        "lib/net5.0/GraphQL.xml",
+        "lib/net6.0/GraphQL.dll",
+        "lib/net6.0/GraphQL.xml",
+        "lib/netstandard2.0/GraphQL.dll",
+        "lib/netstandard2.0/GraphQL.xml",
+        "lib/netstandard2.1/GraphQL.dll",
+        "lib/netstandard2.1/GraphQL.xml",
+        "logo.64x64.png"
+      ]
+    },
+    "GraphQL-Parser/8.4.2": {
+      "sha512": "lztBQaZaq2g98w2XVSv3Y635AEwk/m6gwlvgmLxfIGxngpklaPSXWEIgCXcCv803qAXvUUTbvaVXuteyQdyVjw==",
+      "type": "package",
+      "path": "graphql-parser/8.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "graphql-parser.8.4.2.nupkg.sha512",
+        "graphql-parser.nuspec",
+        "lib/net6.0/GraphQLParser.dll",
+        "lib/net6.0/GraphQLParser.xml",
+        "lib/netstandard2.0/GraphQLParser.dll",
+        "lib/netstandard2.0/GraphQLParser.xml",
+        "lib/netstandard2.1/GraphQLParser.dll",
+        "lib/netstandard2.1/GraphQLParser.xml",
+        "logo.64x64.png"
+      ]
+    },
+    "GraphQL.Analyzers/7.7.1": {
+      "sha512": "vKD/sdbY5QrH85PkoB4hhALlZWWpL7/E/jwk5e1stbdImq/mDnko1r1B5eTKJMWO5a6d6Kba9aHyEeG1Mtk9Rw==",
+      "type": "package",
+      "path": "graphql.analyzers/7.7.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "analyzers/dotnet/cs/GraphQL.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/GraphQL.Analyzers.dll",
+        "graphql.analyzers.7.7.1.nupkg.sha512",
+        "graphql.analyzers.nuspec",
+        "logo.64x64.png",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "GraphQL.Server.Ui.GraphiQL/7.6.0": {
+      "sha512": "o6+tnA5Vt1inLviBnJrV6tBHMrsKIwz/NkkVpyM9lyk+0lUE/9xSGBMmsnnubK+uSh/hwjzVSX6kZRbm3UCaTQ==",
+      "type": "package",
+      "path": "graphql.server.ui.graphiql/7.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "graphql.server.ui.graphiql.7.6.0.nupkg.sha512",
+        "graphql.server.ui.graphiql.nuspec",
+        "lib/netcoreapp3.1/GraphQL.Server.Ui.GraphiQL.dll",
+        "lib/netcoreapp3.1/GraphQL.Server.Ui.GraphiQL.xml",
+        "lib/netstandard2.0/GraphQL.Server.Ui.GraphiQL.dll",
+        "lib/netstandard2.0/GraphQL.Server.Ui.GraphiQL.xml",
+        "logo.64x64.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "GraphQL >= 7.7.1",
+      "GraphQL.Server.Ui.GraphiQL >= 7.6.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\Chuyên ngành\\CDNet\\GraphQL-SimpleTalk\\GraphQL_SimpleTalk.csproj",
+      "projectName": "GraphQL_SimpleTalk",
+      "projectPath": "G:\\Chuyên ngành\\CDNet\\GraphQL-SimpleTalk\\GraphQL_SimpleTalk.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "G:\\Chuyên ngành\\CDNet\\GraphQL-SimpleTalk\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "GraphQL": {
+            "target": "Package",
+            "version": "[7.7.1, )"
+          },
+          "GraphQL.Server.Ui.GraphiQL": {
+            "target": "Package",
+            "version": "[7.6.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
